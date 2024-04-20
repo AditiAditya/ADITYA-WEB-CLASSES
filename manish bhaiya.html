@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORMS FOR TURTLES</h2>
+    <form action="backend.php" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div><br>
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label>
+        </div><br> 
+        <div>
+            <label for="class">Class:</label>
+            <input type="text" id="class" name="class">
+        </div><br>
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+        </div><br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div><br>
+        <div>
+            <label for="rollno">Roll no.:</label>
+            <input type="text" id="rollno" name="rollno">
+        </div><br>
+        <div>
+            <label for="school">School/College:</label>
+            <input type="text" id="school" name="school">
+        </div><br>
+        <div>
+            <input type="checkbox" id="age" name="age">
+            <label for="age">Are you 18+?</label>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+    
+</body>
+</html>
